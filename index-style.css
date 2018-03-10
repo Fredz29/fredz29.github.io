@@ -1,0 +1,149 @@
+
+
+.grid-container{
+	width: 80%;
+	height: 600px;
+	background-color: grey;
+	margin: 0 auto;
+	margin-top:2%;
+}
+
+.first-grid{
+	width: 40%;
+	height: 100%;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	background-color: #fff;
+	background-image: url('me2.jpg')
+}
+
+.first-grid:hover{
+	transform: scale(1.02);
+}
+
+.second-grid{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+.first-sub-grid{
+	width: 50%;
+	height: 50%;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	background-color: #15c5df;
+}
+
+.first-sub-grid:hover{
+	z-index: 50;
+	transform: scale(1.02);
+}
+
+.second-sub-grid{
+	width: 50%;
+	height: 50%;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	background-color: #ff8c00;
+}
+
+.second-sub-grid:hover{
+	z-index: 50;
+	transform: scale(1.02);	
+}
+
+.third-sub-grid{
+	width: 50%;
+	height: 50%;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	background-color: #ffa07a;
+}
+
+.third-sub-grid:hover{
+	z-index: 50;
+	transform: scale(1.02);		
+}
+
+.fourth-sub-grid{
+	width: 50%;
+	height: 50%;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	background-color: #0ce75e;
+}
+
+.fourth-sub-grid:hover{
+	z-index: 50;
+	transform: scale(1.01);		
+}
+
+.grid-notes{
+	padding: 30%;
+	font-family: Courier New;
+}
+
+.main-grid-notes-container{
+	bottom: 0;
+	height:auto;
+	width: 100% !important;
+	position: absolute;
+	background-color: #43f505;
+}
+.main-grid-notes{
+	padding-left: 5px;
+	font-family: Courier New;
+}
+.profession{
+	padding-left: 5px;
+	font-family: Courier New;
+}
+
+/********************************************************************************
+*																				*
+*					          mobile devices									*
+*																				*
+*********************************************************************************/
+
+@media only screen and (max-width: 700px){
+	.first-grid{
+		width: 100%;
+		height: 400px;
+		background-color: #fff;
+	}
+
+	.second-grid{
+		width: 100%;
+		height: 400px;
+	}
+
+}
+
+
+@media only screen and (max-width: 480px){
+	.first-sub-grid{
+		width: 100%;
+		height: 400px;
+	}
+
+	.second-sub-grid{
+		width: 100%;
+		height: 400px;
+	}
+
+	.third-sub-grid{
+		width: 100%;
+		height: 400px;
+	}
+
+	.fourth-sub-grid{
+		width: 100%;
+		height: 400px;
+	}
+}
