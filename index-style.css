@@ -14,7 +14,7 @@
 	position: relative;
 	cursor: pointer;
 	background-color: #fff;
-	background-image: url('me2.jpg')
+	background-image: url('images/me2.jpg')
 }
 
 .first-grid:hover{
@@ -34,13 +34,17 @@
 	float: left;
 	cursor: pointer;
 	position: relative;
+	background-image: url('images/logo/skills.png');
+	background-size: 80%;
+    background-position: center; 
+    background-repeat: no-repeat;
 	background-color: #15c5df;
 }
 
 .first-sub-grid:hover{
 	z-index: 50;
 	transform: scale(1.02);
-	transform: rotateZ(-10deg);
+	/*transform: rotateZ(-10deg);*/
 }
 
 .second-sub-grid{
@@ -49,12 +53,16 @@
 	float: left;
 	cursor: pointer;
 	position: relative;
+	background-image: url('images/logo/portfolio.png');
+	background-size: 70%;
+	background-position: center; 
+	background-repeat: no-repeat;
 	background-color: #ff8c00;
 }
 
 .second-sub-grid:hover{
 	z-index: 50;
-	transform: scale(.9);	
+	transform: scale(1.02);	
 }
 
 .third-sub-grid{
@@ -63,13 +71,17 @@
 	float: left;
 	cursor: pointer;
 	position: relative;
+	background-image: url('images/logo/contact-me.png');
+	background-size: 80%;
+	background-position: center; 
+	background-repeat: no-repeat;
 	background-color: #ffa07a;
 }
 
 .third-sub-grid:hover{
 	z-index: 50;
 	transform: scale(1.02);		
-	box-shadow: inset 0 0 0 10px #ff8c00;
+	/*box-shadow: inset 0 0 0 10px #ff8c00;*/
 }
 
 .fourth-sub-grid{
@@ -78,20 +90,24 @@
 	float: left;
 	cursor: pointer;
 	position: relative;
+	background-image: url('images/logo/me.png');
+	background-size: 80%;
+	background-position: center; 
+	background-repeat: no-repeat;
 	background-color: #0ce75e;
 }
 
 .fourth-sub-grid:hover{
 	z-index: 50;
-	transform: scale(1.01);		
-	box-shadow:
+	transform: scale(1.02);		
+	/*box-shadow:
 		        1px 1px #53a7ea,
 		        2px 2px #53a7ea,
 		        3px 3px #53a7ea,
 	            4px 4px #53a7ea,
 	            5px 5px #53a7ea;
     -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
+    transform: translateX(-3px);*/
 }
 
 .grid-notes{
