@@ -14,7 +14,7 @@
 	position: relative;
 	cursor: pointer;
 	background-color: #fff;
-	background-image: url('images/me2.jpg')
+	/** background-image: url('images/me2.jpg') **/
 }
 
 .first-grid:hover{
@@ -124,11 +124,15 @@
 }
 .main-grid-notes{
 	padding-left: 5px;
-	font-family: Courier New;
+	font-size: 40px;
+	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
 }
 .profession{
 	padding-left: 5px;
+	margin-top: -10px;
+	font-size: 20px;
 	font-family: Courier New;
+	text-decoration: underline;
 }
 
 /********************************************************************************
@@ -180,3 +184,4 @@
 	}
 	
 }
+

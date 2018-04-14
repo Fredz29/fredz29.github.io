@@ -2,10 +2,71 @@
 <html>
 <head>
 	<title>Frederick Tangpos|Skills</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/skills-style.css">
 </head>
 <body>
-	<div class="container">
-		
+	<a href="index.html">home</a>
+	<h2></h2>
+	<div class="showData-container">
+		<button id="showData-btn" onclick="showSkillsData()">SHOW DATA</button>
+	</div>
+	<div id="skills-container">
+		<div id="graph-container">
+			<div id="skills-score" class="skills-grid">
+				<div class="score-grid"></div>
+				<div class="score-grid"></div>
+				<div class="score-grid"></div>
+				<div class="score-grid"></div>
+				<div class="score-grid"></div>
+				<div class="score-grid"></div>
+				<div class="score-grid"></div>
+				<div class="score-grid"></div>
+				<div class="score-grid"></div>
+				<div class="score-grid"></div>
+			</div>
+			<div id="javascript-skills" class="skills-grid">
+				<div class="skills-graph" skill= "Javascript" onclick="getSkillDetails(this)"></div>
+			</div>
+			<div id="html-skills" class="skills-grid">
+				<div class="skills-graph" skill= "HTML" onclick="getSkillDetails(this)"></div>
+			</div>
+			<div id="css-skills" class="skills-grid">
+				<div class="skills-graph" skill= "CSS" onclick="getSkillDetails(this)"></div>
+			</div>
+			<div id="sql-skills" class="skills-grid">
+				<div class="skills-graph" skill= "SQL" onclick="getSkillDetails(this)"></div>
+			</div>
+			<div id="other-skills" class="skills-grid">
+				<div class="skills-graph" skill= "Other Skills" onclick="getSkillDetails(this)"></div>
+			</div>
+		</div>
+		<div id="graphDetails-container">
+			<div class="details-container">
+				<h3>SKILL DETAILS</h3>
+				<table>
+					<tr>
+						<td>Name</td>
+						<td id="details-skill-name"></td>
+					</tr>
+					<tr>
+						<td>Rate</td>
+						<td id="details-skill-score"></td>
+					</tr>
+					<tr>
+						<td>Description</td>
+						<td id="details-skill-description"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div id="item-container">
+		<div id="item-display"></div>
+		<div id="item-details"></div>
 	</div>
 </body>
+<footer>
+	<script type="text/javascript" src="js/skills-script.js"></script>
+</footer>
 </html>
